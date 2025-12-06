@@ -1,0 +1,29 @@
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (if using build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Distribution
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+.coverage/
+.nyc_output/
