@@ -3,74 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW M Series - Performance Redefined</title>
+    <title>BMW M - Ultimate Performance Engineering</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <h1>🎁 BMW M</h1>
+                <div class="bmw-logo">■●■</div>
+                <h1>BMW <span class="m-badge">M</span></h1>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
                 <li><a href="#models" class="nav-link">Models</a></li>
-                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#features" class="nav-link">Performance</a></li>
                 <li><a href="#gallery" class="nav-link">Gallery</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with BMW Styling -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Pure Performance</h1>
-            <p class="hero-subtitle">Experience the Ultimate Driving Machine</p>
-            <button class="cta-button">Explore Now</button>
+            <div class="hero-badge">Ultimate Driving Machine</div>
+            <h1 class="hero-title">BMW M</h1>
+            <p class="hero-subtitle">Engineering Perfection Since 1972</p>
+            <button class="cta-button">Discover Performance</button>
         </div>
         <div class="hero-background"></div>
     </section>
 
-    <!-- Models Section -->
+    <!-- Models Section with Real Images -->
     <section id="models" class="models">
         <div class="container">
-            <h2 class="section-title">Our Models</h2>
+            <h2 class="section-title">M Series Lineup</h2>
             <div class="models-grid">
+                <!-- BMW M3 -->
                 <div class="model-card">
-                    <div class="model-image m3">M3</div>
-                    <h3>BMW M3</h3>
-                    <p>The legendary sports sedan</p>
-                    <ul class="specs">
-                        <li>🏈 0-100 km/h: 3.9s</li>
-                        <li>⚡ 510 HP</li>
-                        <li>📄 Max Speed: 250 km/h</li>
-                    </ul>
+                    <div class="model-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=500&q=60" alt="BMW M3" class="model-image">
+                    </div>
+                    <h3>M3 Sedan</h3>
+                    <p>The iconic sports sedan. Pure driving dynamics.</p>
+                    <div class="specs-badge">
+                        <span>503 HP</span>
+                        <span>3.9s 0-100</span>
+                        <span>250 km/h</span>
+                    </div>
                     <button class="learn-btn">Learn More</button>
                 </div>
 
+                <!-- BMW M4 -->
                 <div class="model-card">
-                    <div class="model-image m4">M4</div>
-                    <h3>BMW M4</h3>
-                    <p>Coupe performance excellence</p>
-                    <ul class="specs">
-                        <li>🏈 0-100 km/h: 3.9s</li>
-                        <li>⚡ 510 HP</li>
-                        <li>📄 Max Speed: 250 km/h</li>
-                    </ul>
+                    <div class="model-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1552820728-8ac41f1ce891?auto=format&fit=crop&w=500&q=60" alt="BMW M4" class="model-image">
+                    </div>
+                    <h3>M4 Coupe</h3>
+                    <p>Coupe performance elevated. Aggressive design.</p>
+                    <div class="specs-badge">
+                        <span>503 HP</span>
+                        <span>3.9s 0-100</span>
+                        <span>250 km/h</span>
+                    </div>
                     <button class="learn-btn">Learn More</button>
                 </div>
 
+                <!-- BMW M5 -->
                 <div class="model-card">
-                    <div class="model-image m5">M5</div>
-                    <h3>BMW M5</h3>
-                    <p>Executive supercar</p>
-                    <ul class="specs">
-                        <li>🏈 0-100 km/h: 3.6s</li>
-                        <li>⚡ 625 HP</li>
-                        <li>📄 Max Speed: 250 km/h</li>
-                    </ul>
+                    <div class="model-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1567818735868-e71b99932e29?auto=format&fit=crop&w=500&q=60" alt="BMW M5" class="model-image">
+                    </div>
+                    <h3>M5 Executive</h3>
+                    <p>Luxury meets power. Executive performance.</p>
+                    <div class="specs-badge">
+                        <span>625 HP</span>
+                        <span>3.6s 0-100</span>
+                        <span>250 km/h</span>
+                    </div>
                     <button class="learn-btn">Learn More</button>
                 </div>
             </div>
@@ -80,22 +94,62 @@
     <!-- Features Section -->
     <section id="features" class="features">
         <div class="container">
-            <h2 class="section-title">Why Choose BMW M?</h2>
+            <h2 class="section-title">M Performance DNA</h2>
             <div class="features-grid">
                 <div class="feature-item">
-                    <div class="feature-icon">⚫️</div>
-                    <h3>Twin-Turbo Engine</h3>
-                    <p>Advanced engines deliver extraordinary power and efficiency</p>
+                    <div class="feature-icon">⚡</div>
+                    <h3>Twin-Power Turbo</h3>
+                    <p>Advanced twin-turbocharged engines for max performance</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-icon">🔧</div>
-                    <h3>Precision Handling</h3>
-                    <p>M-Sport suspension for unmatched control</p>
+                    <div class="feature-icon">🏁</div>
+                    <h3>M Sport Chassis</h3>
+                    <p>Precision-engineered suspension for perfect control</p>
                 </div>
                 <div class="feature-item">
                     <div class="feature-icon">🛡️</div>
-                    <h3>Safety First</h3>
-                    <p>Comprehensive safety features with advanced systems</p>
+                    <h3>Advanced Safety</h3>
+                    <p>Integrated safety systems for secure driving</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Premium Audio</h3>
+                    <p>Harman Kardon sound system</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <h3>iDrive Integration</h3>
+                    <p>Seamless connectivity and control</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">✨</div>
+                    <h3>M Aerodynamics</h3>
+                    <p>Carbon fiber components for lightweight performance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">M Series Showcase</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=500&q=60" alt="M3 Performance">
+                    <p>M3 Track Edition</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1610809353706-18bda86dc3db?auto=format&fit=crop&w=500&q=60" alt="M4 Design">
+                    <p>M4 Detail View</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b83ad38?auto=format&fit=crop&w=500&q=60" alt="M5 Luxury">
+                    <p>M5 Interior</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=500&q=60" alt="M Performance">
+                    <p>M Performance Parts</p>
                 </div>
             </div>
         </div>
@@ -105,11 +159,12 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Experience BMW M Performance</p>
             <form class="contact-form" id="contactForm">
                 <input type="text" placeholder="Your Name" required>
                 <input type="email" placeholder="Your Email" required>
                 <textarea placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn">Send Inquiry</button>
             </form>
         </div>
     </section>
@@ -117,7 +172,12 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 BMW M Series Blog. All rights reserved.</p>
+            <p>BMW M Series - Ultimate Driving Machine | &copy; 2025</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Facebook</a>
+            </div>
         </div>
     </footer>
 
